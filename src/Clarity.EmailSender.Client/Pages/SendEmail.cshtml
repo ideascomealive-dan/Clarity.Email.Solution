@@ -1,0 +1,33 @@
+﻿@page
+@model Clarity.EmailSender.Client.Pages.SendEmailModel
+
+@{
+    ViewData["Title"] = "Send Email";
+}
+<h2>Send Test Email</h2>
+
+<form method="post">
+
+    <div class="form-group">
+        <div class="form-group">
+            <label for="Email.To">Email To:</label>
+            <input asp-for="Email.To" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Subject:</label>
+            <input asp-for="Email.Subject" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Body:</label>
+            <textarea asp-for="Email.Body" class="form-control"></textarea>
+        </div>
+        <br />
+        <button class="btn btn-dark" type="submit">Send</button>
+    </div>
+    
+</form>
+
+@if (!string.IsNullOrWhiteSpace(Model.ResultMessage))
+{
+    <p>@Model.ResultMessage</p>
+}

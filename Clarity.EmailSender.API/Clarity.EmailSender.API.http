@@ -1,0 +1,14 @@
+@Clarity.EmailSender.API_HostAddress = http://localhost:5211
+
+POST {{Clarity.EmailSender.API_HostAddress}}/email
+Content-Type: application/json
+Accept: application/json
+
+{
+  "to": "jane.doe@example.com",
+  "subject": "Welcome to Clarity!",
+  "body": "Hi Daniel,\n\nThanks for signing up. We're excited to have you on board!\n\nCheers,\nThe Clarity Team"
+}
+
+
+###

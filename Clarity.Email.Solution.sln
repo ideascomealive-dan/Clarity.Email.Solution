@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarity.ReliableEmailSender", "src\Clarity.ReliableEmailSender\Clarity.ReliableEmailSender.csproj", "{2136D489-F580-4047-A62F-8877C62BA3B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarity.EmailSender.ConsoleApp", "src\Clarity.ConsoleApp\Clarity.EmailSender.ConsoleApp.csproj", "{0D76AA5D-74CA-4269-AD88-EA16FF93544A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarity.EmailSender.API", "Clarity.EmailSender.API\Clarity.EmailSender.API.csproj", "{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarity.EmailSender.Client", "src\Clarity.EmailSender.Client\Clarity.EmailSender.Client.csproj", "{E812BEA5-22BB-4B17-B36A-D352ED4C8E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarity.EmailSender.Test", "src\Clarity.EmailSender.Test\Clarity.EmailSender.Test.csproj", "{C98A2F03-3FB7-475F-BC04-39719383EC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2136D489-F580-4047-A62F-8877C62BA3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2136D489-F580-4047-A62F-8877C62BA3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2136D489-F580-4047-A62F-8877C62BA3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2136D489-F580-4047-A62F-8877C62BA3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D76AA5D-74CA-4269-AD88-EA16FF93544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D76AA5D-74CA-4269-AD88-EA16FF93544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D76AA5D-74CA-4269-AD88-EA16FF93544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D76AA5D-74CA-4269-AD88-EA16FF93544A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E812BEA5-22BB-4B17-B36A-D352ED4C8E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E812BEA5-22BB-4B17-B36A-D352ED4C8E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E812BEA5-22BB-4B17-B36A-D352ED4C8E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E812BEA5-22BB-4B17-B36A-D352ED4C8E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98A2F03-3FB7-475F-BC04-39719383EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98A2F03-3FB7-475F-BC04-39719383EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98A2F03-3FB7-475F-BC04-39719383EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98A2F03-3FB7-475F-BC04-39719383EC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2136D489-F580-4047-A62F-8877C62BA3B6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0D76AA5D-74CA-4269-AD88-EA16FF93544A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{63CE7978-033A-4EBF-BE5D-4EFAB51FFD67} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E812BEA5-22BB-4B17-B36A-D352ED4C8E75} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C98A2F03-3FB7-475F-BC04-39719383EC19} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3379768D-2BFD-4D52-934D-21F31DA993A9}
+	EndGlobalSection
+EndGlobal
