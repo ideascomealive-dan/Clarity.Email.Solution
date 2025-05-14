@@ -1,4 +1,4 @@
-# ReliableEmailSender Solution
+# Clarity EmailSender Solution
 
 A modular and production-ready **email sending system** built with C# and .NET. Designed for high-volume applications where users must never be blocked or delayed due to email failures.
 
